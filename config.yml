@@ -24,11 +24,11 @@ menu:
       weight: 2
     - identifier: Google Scholar
       name: Google Scholar
-      url: "https://xxx"
+      url: "https://scholar.google.com/citations?user=hRTdDu4AAAAJ&hl"
       weight: 3
     - identifier: CV
       name: CV
-      url: "https://xxx"
+      url: "CV_DiegoPorto_EN_Jan2023.pdf"
       weight: 4
 
 params:
@@ -57,7 +57,7 @@ params:
 
 
   title: DiegoWebsite
-  description: "Hello..."
+  description: "Diego's personal academic website"
   author: Diego Porto
   # images: ["<link or path of image for opengraph>"]
 
@@ -84,13 +84,13 @@ params:
 
   socialIcons:
     - name: email
-      url: "https://xxx"
+      url: "mailto:diegosporto@gmail.com"
     - name: twitter
-      url: "https://xxx"
+      url: "https://twitter.com/PortoSasso"
     - name: mastodon
-      url: "https://xxx"
+      url: "https://mastodon.social/@dsporto@ecoevo.social"
     - name: github
-      url: "https://xxx"
+      url: "https://github.com/diegosasso"
 
   cover:
     hidden: true
