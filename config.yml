@@ -1,0 +1,106 @@
+baseURL: "https://diegosasso.github.io/"
+title: Diego's Website
+paginate: 5
+theme: PaperMod
+
+
+enableInlineShortcodes: true
+enableRobotsTXT: true
+enableEmoji: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+
+menu:
+  main:
+    - identifier: Publications
+      name: Publications
+      url: /Publications/
+      weight: 1
+    - identifier: Research
+      name: Research
+      url: /Research/
+      weight: 2
+    - identifier: Google Scholar
+      name: Google Scholar
+      url: "https://xxx"
+      weight: 3
+    - identifier: CV
+      name: CV
+      url: "https://xxx"
+      weight: 4
+
+params:
+  defaultTheme: dark
+  DateFormat: "January 2, 2006"
+  disableThemeToggle: true
+
+  ShowReadingTime: false
+  ShowShareButtons: false
+  ShowPostNavLinks: false
+  ShowBreadCrumbs: false
+  ShowCodeCopyButtons: false
+  ShowWordCount: false
+  ShowRssButtonInSectionTermList: false
+  UseHugoToc: true
+  disableSpecial1stPost: true
+  disableScrollToTop: true
+  comments: false
+  hidemeta: false
+  hideSummary: false
+  showtoc: false
+  tocopen: false
+
+  assets:
+    disableHLJS: true 
+
+
+  title: DiegoWebsite
+  description: "Hello..."
+  author: Diego Porto
+  # images: ["<link or path of image for opengraph>"]
+
+
+ # label:
+ #   text: "Home"
+ #   icon: /apple-touch-icon.png
+ #   iconHeight: 35
+
+
+  profileMode:
+    enabled: true
+    title: Diego Porto
+    subtitle: "Hi again..."
+    imageUrl: "/diego_img.jpg"
+    imageWidth: 120
+    imageHeight: 120
+    imageTitle: Diego_img
+    #buttons:
+    #  - name: something cool
+    #    url: "https://xxx"
+    #  - name: something cool
+    #    url: "https://xxx"
+
+  socialIcons:
+    - name: email
+      url: "https://xxx"
+    - name: twitter
+      url: "https://xxx"
+    - name: mastodon
+      url: "https://xxx"
+    - name: github
+      url: "https://xxx"
+
+  cover:
+    hidden: true
+    hiddenInList: true
+    hiddenInSingle: true
+
+
+markup:
+    goldmark:
+        renderer:
+            unsafe: true
+    highlight:
+        noClasses: false
