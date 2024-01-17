@@ -28,7 +28,7 @@ menu:
       weight: 3
     - identifier: CV
       name: CV
-      url: "CV_DiegoPorto_EN_Jan2023.pdf"
+      url: "CV_DiegoPorto_EN_Jan2024.pdf"
       weight: 4
 
 params:
@@ -58,7 +58,7 @@ params:
 
   title: DiegoWebsite
   description: "Diego's personal academic website"
-  author: Diego Porto
+  author: Diego S. Porto
   # images: ["<link or path of image for opengraph>"]
 
 
@@ -70,7 +70,7 @@ params:
 
   profileMode:
     enabled: true
-    title: Diego Porto
+    title: Diego S. Porto
     subtitle: "Hello! I am a Postdoctoral Researcher at the Finnish Museum of Natural History in Helsinki. I am a passionate evolutionary biologist specialized on bee morphology and systematics. I am working on the interface of phylogenetics, compatative methods, and computational science to develop new tools to better understand the evolution of complex traits in bees and other organisms. I am interested in developing new models to describe and integrate anatomical knowledge on insects using computational ontologies."
     imageUrl: "/diego_img.jpg"
     imageWidth: 120
