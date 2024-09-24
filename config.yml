@@ -28,7 +28,7 @@ menu:
       weight: 3
     - identifier: CV
       name: CV
-      url: "CV_DiegoPorto_EN_Jan2024.pdf"
+      url: "CV_DiegoPorto_EN.pdf"
       weight: 4
 
 params:
@@ -71,7 +71,12 @@ params:
   profileMode:
     enabled: true
     title: Diego S. Porto
-    subtitle: "Hello! I am a Postdoctoral Researcher at the Finnish Museum of Natural History in Helsinki. I am a passionate evolutionary biologist specialized on bee morphology and systematics. I am working on the interface of phylogenetics, compatative methods, and computational science to develop new tools to better understand the evolution of complex traits in bees and other organisms. I am interested in developing new models to describe and integrate anatomical knowledge on insects using computational ontologies."
+    subtitle: "Hello, I am an Academy Research Fellow working at the Finnish Museum of Natural History in Helsinki, Finland. I am the leading investigator of the project “PhenoBees: a knowledgebase and integrative approach for studying the evolution of morphological traits in bees” funded by the Research Council of Finland ([Project](https://research.fi/en/results/funding/81159)).
+
+I am a passionate evolutionary biologist specialized in the comparative morphology and systematics of bees. My research program is developed in the interface of morphology, phylogenetics, comparative methods, and computer science. My goal is to develop new tools to better understand the evolution of complex traits in bees and other organisms, particularly insects. I am also interested in developing new semantic data models to describe and integrate anatomical knowledge of insects using computational ontologies.
+
+In my current research project, I am working to develop a semantic data workflow to integrate information from multiple sources (e.g., comparative datasets) and address hypotheses about the evolution of the mouthparts of bees. The research will produce a knowledgebase of phenotypic traits of bees ([PhenoBees](https://github.com/diegosasso/PhenoBees/wiki)) and new tools to analyze comparative semantic data.
+"
     imageUrl: "/diego_img.jpg"
     imageWidth: 120
     imageHeight: 120
@@ -83,8 +88,10 @@ params:
     #    url: "https://xxx"
 
   socialIcons:
-    - name: email
-      url: "mailto:diegosporto@gmail.com"
+    - name: email1
+      url: "mailto:diego.sassoporto@helsinki.fi"
+    - name: email2
+      url: "mailto:diegosporto@gmail.com"      
     - name: twitter
       url: "https://twitter.com/PortoSasso"
     - name: mastodon
