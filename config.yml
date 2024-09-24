@@ -14,22 +14,30 @@ buildExpired: false
 
 menu:
   main:
+    - identifier: Research
+      name: Research
+      url: "Research_introduction.pdf"
+      weight: 1
+
     - identifier: Publications
       name: Publications
       url: "publications_DiegoPorto.pdf"
-      weight: 1
-    - identifier: Research
-      name: Research
-      url: "research.md"
       weight: 2
-    - identifier: Google Scholar
-      name: Google Scholar
-      url: "https://scholar.google.com/citations?user=hRTdDu4AAAAJ&hl"
-      weight: 3
+
     - identifier: CV
       name: CV
       url: "CV_DiegoPorto_EN.pdf"
+      weight: 3
+
+    - identifier: Google Scholar
+      name: Google Scholar
+      url: "https://scholar.google.com/citations?user=hRTdDu4AAAAJ&hl"
       weight: 4
+
+    - identifier: Research Portal
+      name: Research Portal
+      url: "https://researchportal.helsinki.fi/en/persons/diego-sasso-porto"
+      weight: 5
 
 params:
   defaultTheme: dark
@@ -71,7 +79,7 @@ params:
   profileMode:
     enabled: true
     title: Diego S. Porto
-    subtitle: "Hello, I am an Academy Research Fellow working at the Finnish Museum of Natural History in Helsinki, Finland. I am a passionate evolutionary biologist specialized in the comparative morphology and systematics of bees. My research program is developed in the interface of morphology, phylogenetics, comparative methods, and computer science. My goal is to develop new tools to better understand the evolution of complex traits in bees and other organisms, particularly insects. I am also interested in developing new semantic data models to describe and integrate anatomical knowledge of insects using computational ontologies."
+    subtitle: "Hello, I am an Academy Research Fellow working at the Finnish Museum of Natural History in Helsinki, Finland. I am a passionate evolutionary biologist specialized in comparative morphology and systematics of bees. My research program is developed in the interface of morphology, phylogenetics, comparative methods, and computer science. My goal is to develop new tools to better understand the evolution of complex traits in bees and other organisms, particularly insects. I am also interested in developing semantic data models to represent anatomical knowledge of insects using computational ontologies."
     imageUrl: "/diego_img.jpg"
     imageWidth: 120
     imageHeight: 120

@@ -1,3 +1,0 @@
-I am the leading investigator of the project “PhenoBees: a knowledgebase and integrative approach for studying the evolution of morphological traits in bees” funded by the Research Council of Finland ([Project](https://research.fi/en/results/funding/81159)).
-
-In my current research project, I am working to develop a semantic data workflow to integrate information from multiple sources (e.g., comparative datasets) and address hypotheses about the evolution of the mouthparts of bees. The research will produce a knowledgebase of phenotypic traits of bees ([PhenoBees](https://github.com/diegosasso/PhenoBees/wiki)) and new tools to analyze comparative semantic data.
